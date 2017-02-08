@@ -24,7 +24,6 @@
 		CEB4C77F1E0CC95100718D87 /* Main-5S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77B1E0CC95100718D87 /* Main-5S.storyboard */; };
 		CEB4C7801E0CC95100718D87 /* Main-7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77C1E0CC95100718D87 /* Main-7.storyboard */; };
 		CEB4C7811E0CC95100718D87 /* Main-7plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77D1E0CC95100718D87 /* Main-7plus.storyboard */; };
-		CEB4C7821E0CCD1500718D87 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAD5AF01DBD20D5002251F8 /* Info.plist */; };
 		CEBAFD611DEE2A3B0075CB0D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBAFD5D1DEE2A3B0075CB0D /* Fabric.framework */; };
 		CEBAFD621DEE2A3B0075CB0D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBAFD5E1DEE2A3B0075CB0D /* TwitterKit.framework */; };
 		CEBAFD631DEE2A3B0075CB0D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEBAFD5F1DEE2A3B0075CB0D /* TwitterKitResources.bundle */; };
@@ -219,7 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Matthew Serna";
 				TargetAttributes = {
 					CEAD5AE01DBD20D4002251F8 = {
@@ -260,7 +259,6 @@
 				CEAD5AEC1DBD20D5002251F8 /* Assets.xcassets in Resources */,
 				CE723FD21DFDF6930002A118 /* Main.storyboard in Resources */,
 				CEAD5AFD1DBD2330002251F8 /* ViewControllerLyft.xib in Resources */,
-				CEB4C7821E0CCD1500718D87 /* Info.plist in Resources */,
 				CEAD5B011DBD2341002251F8 /* ViewControllerTaxi.xib in Resources */,
 				CEC65C531DE1004F0061D79F /* ViewControllerUber.xib in Resources */,
 				CEB4C7811E0CC95100718D87 /* Main-7plus.storyboard in Resources */,
@@ -349,6 +347,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,6 +398,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
