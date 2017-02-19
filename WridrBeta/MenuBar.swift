@@ -31,7 +31,7 @@ class MenuBar : UIView, UICollectionViewDataSource, UICollectionViewDelegate, UI
     
     //Array of Cell images
     //To change images, replace strings with corresponding image assets
-    let imageNames = ["navuber", "lyft1", "navtaxi"]
+    let imageNames = ["uber3", "lyft3", "taxi3"]
     
     override init(frame: CGRect)
     {

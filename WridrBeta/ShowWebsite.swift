@@ -17,7 +17,7 @@ class ShowWebsite: UIViewController
         super.viewDidLoad()
         
         super.viewDidLoad()
-        let url = URL(string: "http://www.wridr.com")
+        let url = URL(string: "wridr.com")
         let request = URLRequest(url: url!)
         website.loadRequest(request)
     }

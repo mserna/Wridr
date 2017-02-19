@@ -54,6 +54,11 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
     {
         super.viewDidLoad()
         
+        //Changes navbar title to custom Wridr logo
+        let logo = UIImage(named: "wridr.png")
+        let imageView = UIImageView(image: logo)
+        self.navigationItem.titleView = imageView
+        
         //Acts as the super class for UICollectionViewController
         scrollView.delegate = self
         
