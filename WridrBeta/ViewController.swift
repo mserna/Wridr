@@ -100,7 +100,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         self.scrollView.addSubview(vcTaxi.view)
         vcTaxi.didMove(toParentViewController: self)
         
-        self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: self.view.frame.size.height - 66)
+        self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 66)
     }
     
     lazy var menuBar : MenuBar =

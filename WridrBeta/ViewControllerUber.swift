@@ -17,6 +17,8 @@ class ViewControllerUber: TWTRTimelineViewController
         
         let client = TWTRAPIClient()
         self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my uber driver", apiClient: client)
+     
         showTweetActions = true
+
     }
 }
