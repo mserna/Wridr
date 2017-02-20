@@ -162,6 +162,7 @@
 		CEFB1B361E061E8F00F5A8C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD5AFF1DBD2341002251F8 /* ViewControllerTaxi.xib */,
 				CEAD5AFB1DBD2330002251F8 /* ViewControllerLyft.xib */,
 				CEC65C511DE1004F0061D79F /* ViewControllerUber.xib */,
 				CEFB1B3A1E061F4C00F5A8C2 /* MenuBar.swift */,
@@ -172,7 +173,6 @@
 		CEFB1B371E061EC300F5A8C2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				CEAD5AFF1DBD2341002251F8 /* ViewControllerTaxi.xib */,
 				CEFB1B381E061EE100F5A8C2 /* Extensions.swift */,
 			);
 			name = Extensions;

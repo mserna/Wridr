@@ -76,9 +76,6 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         //Creates menubar space
         setupMenuBar()
         
-        //Hides back button from navbar
-        //self.navigationItem.hidesBackButton = true
-        
         //Create scrollView
         self.addChildViewController(vcUber)
         self.scrollView.addSubview(vcUber.view)

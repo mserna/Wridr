@@ -22,6 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         
         //From Twitter API
         Fabric.with([Twitter.self])
+        
+        //Auto-Layout
+        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window!.rootViewController = ViewController()
+            window!.makeKeyAndVisible()
+            return true
+        }
 
         //Navbar color
         UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
