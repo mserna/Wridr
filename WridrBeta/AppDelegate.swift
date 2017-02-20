@@ -23,11 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         //From Twitter API
         Fabric.with([Twitter.self])
 
-        //Ensures correct formatting per device
-        let storyboard: UIStoryboard = self.grabStoryboard()
-        self.window!.rootViewController = storyboard.instantiateInitialViewController()
-        self.window!.makeKeyAndVisible()
-        
         //Navbar color
         UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
         UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
@@ -43,38 +38,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         return true
     }
     
-    func grabStoryboard() -> UIStoryboard
-    {
-        let screenHeight = UIScreen.main.bounds.size.height
-        var storyboard : UIStoryboard
-        
-        switch screenHeight
-        {
-        //iPhone 4, 4S
-        case 480:
-            storyboard = UIStoryboard(name: "Main-4S", bundle: nil)
-            print("Went to iPhone-4S")//Check console to see if working
-        //iPhone 5, 5S, SE
-        case 568:
-            storyboard = UIStoryboard(name: "Main-5S", bundle: nil)
-            print("Went to iPhone-5S")//Check console to see if working
-        //iPhone 6, 6S, 7
-        case 667:
-            storyboard = UIStoryboard(name: "Main-7", bundle: nil)
-            print("Went to iPhone-6S")//Check console to see if working
-        //iPhone 6+, 6S+, 7+
-        case 736:
-            storyboard = UIStoryboard(name: "Main-7plus", bundle: nil)
-            print("Went to iPhone-7+")//Check console to see if working
-        //iPad 9.7
-        default:
-            storyboard = UIStoryboard(name: "Main", bundle: nil)
-            print("Went to iPad")//Check console to see if working
-        }
-        
-        return storyboard
-    }
-
     func applicationWillResignActive(_ application: UIApplication)
     {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

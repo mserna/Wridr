@@ -11,7 +11,6 @@
 		CE43097E1E3EC2F20016D2AB /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */; };
 		CE4309801E3EC7160016D2AB /* ShowWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43097F1E3EC7160016D2AB /* ShowWebsite.swift */; };
 		CE5E88131DF36BA100FC2B29 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E88121DF36BA100FC2B29 /* NewViewController.swift */; };
-		CE723FD21DFDF6930002A118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE723FD01DFDF6930002A118 /* Main.storyboard */; };
 		CEAD5AE51DBD20D5002251F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD5AE41DBD20D5002251F8 /* AppDelegate.swift */; };
 		CEAD5AE71DBD20D5002251F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD5AE61DBD20D5002251F8 /* ViewController.swift */; };
 		CEAD5AEC1DBD20D5002251F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD5AEB1DBD20D5002251F8 /* Assets.xcassets */; };
@@ -21,9 +20,6 @@
 		CEAD5B001DBD2341002251F8 /* ViewControllerTaxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD5AFE1DBD2341002251F8 /* ViewControllerTaxi.swift */; };
 		CEAD5B011DBD2341002251F8 /* ViewControllerTaxi.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD5AFF1DBD2341002251F8 /* ViewControllerTaxi.xib */; };
 		CEB4C77E1E0CC95100718D87 /* Main-4S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77A1E0CC95100718D87 /* Main-4S.storyboard */; };
-		CEB4C77F1E0CC95100718D87 /* Main-5S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77B1E0CC95100718D87 /* Main-5S.storyboard */; };
-		CEB4C7801E0CC95100718D87 /* Main-7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77C1E0CC95100718D87 /* Main-7.storyboard */; };
-		CEB4C7811E0CC95100718D87 /* Main-7plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C77D1E0CC95100718D87 /* Main-7plus.storyboard */; };
 		CEBAFD611DEE2A3B0075CB0D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBAFD5D1DEE2A3B0075CB0D /* Fabric.framework */; };
 		CEBAFD621DEE2A3B0075CB0D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBAFD5E1DEE2A3B0075CB0D /* TwitterKit.framework */; };
 		CEBAFD631DEE2A3B0075CB0D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEBAFD5F1DEE2A3B0075CB0D /* TwitterKitResources.bundle */; };
@@ -44,7 +40,6 @@
 		CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
 		CE43097F1E3EC7160016D2AB /* ShowWebsite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowWebsite.swift; sourceTree = "<group>"; };
 		CE5E88121DF36BA100FC2B29 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewViewController.swift; path = ../NewViewController.swift; sourceTree = "<group>"; };
-		CE723FD11DFDF6930002A118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEAD5AE11DBD20D4002251F8 /* Wridr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wridr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD5AE41DBD20D5002251F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAD5AE61DBD20D5002251F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +51,6 @@
 		CEAD5AFE1DBD2341002251F8 /* ViewControllerTaxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTaxi.swift; sourceTree = "<group>"; };
 		CEAD5AFF1DBD2341002251F8 /* ViewControllerTaxi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerTaxi.xib; sourceTree = "<group>"; };
 		CEB4C77A1E0CC95100718D87 /* Main-4S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-4S.storyboard"; sourceTree = "<group>"; };
-		CEB4C77B1E0CC95100718D87 /* Main-5S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-5S.storyboard"; sourceTree = "<group>"; };
-		CEB4C77C1E0CC95100718D87 /* Main-7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-7.storyboard"; sourceTree = "<group>"; };
-		CEB4C77D1E0CC95100718D87 /* Main-7plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-7plus.storyboard"; sourceTree = "<group>"; };
 		CEBAFD5D1DEE2A3B0075CB0D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		CEBAFD5E1DEE2A3B0075CB0D /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		CEBAFD5F1DEE2A3B0075CB0D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
@@ -108,11 +100,7 @@
 		CE382CC81E34138F00CCB5F8 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				CE723FD01DFDF6930002A118 /* Main.storyboard */,
 				CEB4C77A1E0CC95100718D87 /* Main-4S.storyboard */,
-				CEB4C77B1E0CC95100718D87 /* Main-5S.storyboard */,
-				CEB4C77C1E0CC95100718D87 /* Main-7.storyboard */,
-				CEB4C77D1E0CC95100718D87 /* Main-7plus.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -252,16 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBAFD631DEE2A3B0075CB0D /* TwitterKitResources.bundle in Resources */,
-				CEB4C77F1E0CC95100718D87 /* Main-5S.storyboard in Resources */,
 				CEAD5AEF1DBD20D5002251F8 /* LaunchScreen.storyboard in Resources */,
-				CEB4C7801E0CC95100718D87 /* Main-7.storyboard in Resources */,
 				CEB4C77E1E0CC95100718D87 /* Main-4S.storyboard in Resources */,
 				CEAD5AEC1DBD20D5002251F8 /* Assets.xcassets in Resources */,
-				CE723FD21DFDF6930002A118 /* Main.storyboard in Resources */,
 				CEAD5AFD1DBD2330002251F8 /* ViewControllerLyft.xib in Resources */,
 				CEAD5B011DBD2341002251F8 /* ViewControllerTaxi.xib in Resources */,
 				CEC65C531DE1004F0061D79F /* ViewControllerUber.xib in Resources */,
-				CEB4C7811E0CC95100718D87 /* Main-7plus.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +294,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE723FD01DFDF6930002A118 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE723FD11DFDF6930002A118 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEAD5AED1DBD20D5002251F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
