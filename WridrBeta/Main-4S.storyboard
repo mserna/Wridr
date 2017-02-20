@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -97,15 +98,18 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5Y-98-ILb">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5Y-98-ILb">
                                                     <rect key="frame" x="266" y="6" width="46" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Visit"/>
                                                     <connections>
                                                         <action selector="visitWebsite:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="OMY-Ek-VHn"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="m5Y-98-ILb" secondAttribute="trailing" id="pKH-qx-tcV"/>
+                                                <constraint firstItem="m5Y-98-ILb" firstAttribute="centerY" secondItem="OHX-mv-8oq" secondAttribute="centerY" id="wCt-1j-MLN"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="7Oj-ED-YzE">
@@ -122,15 +126,18 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ei-bj-DrK">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ei-bj-DrK">
                                                     <rect key="frame" x="266" y="7" width="46" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="E-Mail"/>
                                                     <connections>
                                                         <action selector="emailWridr:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="fXC-J8-l6P"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0ei-bj-DrK" firstAttribute="centerY" secondItem="LR6-9O-LBS" secondAttribute="centerY" id="Ulh-AG-wyi"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="0ei-bj-DrK" secondAttribute="trailing" id="m5k-Ke-Gxg"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="GR0-bZ-kTU">
@@ -147,15 +154,18 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-N4-GHv">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-N4-GHv">
                                                     <rect key="frame" x="266" y="7" width="46" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Show"/>
                                                     <connections>
                                                         <action selector="showTermsOfService:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="D0e-Zn-g0e"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="HP3-N4-GHv" firstAttribute="centerY" secondItem="9tW-HE-HdY" secondAttribute="centerY" id="TRs-rj-zc5"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="HP3-N4-GHv" secondAttribute="trailing" id="uAV-7P-GHk"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -176,9 +186,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utE-4T-qwO">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utE-4T-qwO">
                                                     <rect key="frame" x="238" y="0.0" width="74" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <state key="normal" title="Connect"/>
                                                     <connections>
@@ -186,6 +195,10 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="utE-4T-qwO" secondAttribute="trailing" id="2Lj-bp-QLc"/>
+                                                <constraint firstItem="utE-4T-qwO" firstAttribute="centerY" secondItem="bFQ-qH-mxr" secondAttribute="centerY" id="eMT-Pc-9PZ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -239,9 +252,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi1-I1-skp">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi1-I1-skp">
                                                     <rect key="frame" x="128" y="6" width="65" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <state key="normal" title="Log Out"/>
                                                     <connections>
@@ -249,6 +261,10 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Vi1-I1-skp" firstAttribute="centerY" secondItem="SGF-df-Dh2" secondAttribute="centerY" id="SD5-cC-Bsa"/>
+                                                <constraint firstItem="Vi1-I1-skp" firstAttribute="centerX" secondItem="SGF-df-Dh2" secondAttribute="centerX" id="dJc-EJ-NHS"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -319,9 +335,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-jw-ML4">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-jw-ML4">
                                 <rect key="frame" x="126" y="105" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
@@ -330,6 +345,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ySm-jw-ML4" firstAttribute="centerX" secondItem="f7Y-ww-xtq" secondAttribute="centerX" id="50e-qT-qZ5"/>
+                            <constraint firstItem="ySm-jw-ML4" firstAttribute="top" secondItem="1xr-e4-8ce" secondAttribute="bottom" constant="41" id="gYv-CJ-dnK"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HKn-ue-oSg"/>
                     <connections>
@@ -368,7 +387,7 @@
         <image name="settings2" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jM3-xE-6tl"/>
+        <segue reference="KcA-vz-0ol"/>
         <segue reference="1Vv-q3-VkY"/>
     </inferredMetricsTieBreakers>
 </document>
