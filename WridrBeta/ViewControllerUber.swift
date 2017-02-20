@@ -16,8 +16,7 @@ class ViewControllerUber: TWTRTimelineViewController
         super.viewDidLoad()
         
         let client = TWTRAPIClient()
-        
-        //Grabs timelines from Twitter hashtags that have Uber in it
-        self.dataSource = TWTRUserTimelineDataSource(screenName: "my uber", apiClient: client)
+        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my uber driver", apiClient: client)
+        showTweetActions = true
     }
 }
