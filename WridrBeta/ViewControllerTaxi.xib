@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerTaxi" customModule="Wridr" customModuleProvider="target">
             <connections>
+                <outlet property="taxiTableView" destination="muO-2z-8XL" id="gpW-9e-hFh"/>
                 <outlet property="view" destination="muO-2z-8XL" id="hXV-L2-tDE"/>
             </connections>
         </placeholder>
@@ -19,7 +20,6 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="16" y="-21"/>
         </tableView>
     </objects>

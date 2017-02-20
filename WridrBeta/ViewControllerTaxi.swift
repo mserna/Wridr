@@ -11,6 +11,7 @@ import TwitterKit
 
 class ViewControllerTaxi: TWTRTimelineViewController
 {
+    @IBOutlet var taxiTableView: UITableView!
 
     override func viewDidLoad()
     {
@@ -19,5 +20,11 @@ class ViewControllerTaxi: TWTRTimelineViewController
         let client = TWTRAPIClient()
         self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my taxi driver", apiClient: client)
         showTweetActions = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        taxiTableView.frame = CGRect(x: self.view.frame.origin.x, y: self.view.frame.origin.y, width: UIScreen.main.bounds.size.width, height: self.view.frame.size
+            .height)
     }
 }

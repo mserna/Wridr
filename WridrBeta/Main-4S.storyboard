@@ -22,20 +22,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKG-l8-xmj">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKG-l8-xmj">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.45882352939999999" green="0.14117647059999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YKG-l8-xmj" firstAttribute="height" secondItem="EKM-JY-Sn3" secondAttribute="height" id="7Pm-yt-TaF"/>
+                            <constraint firstItem="YKG-l8-xmj" firstAttribute="centerY" secondItem="EKM-JY-Sn3" secondAttribute="centerY" id="NNB-cW-TzL"/>
+                            <constraint firstItem="YKG-l8-xmj" firstAttribute="centerX" secondItem="EKM-JY-Sn3" secondAttribute="centerX" id="TfM-7P-4h2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YKG-l8-xmj" secondAttribute="trailing" constant="-16" id="cFA-xI-jBA"/>
+                            <constraint firstItem="YKG-l8-xmj" firstAttribute="width" secondItem="EKM-JY-Sn3" secondAttribute="width" id="csN-2b-Qy3"/>
+                            <constraint firstItem="UNT-C7-DrA" firstAttribute="top" secondItem="YKG-l8-xmj" secondAttribute="bottom" id="okO-HE-9gY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Wridr" id="Auj-N5-4OQ">
                         <barButtonItem key="leftBarButtonItem" title="Create" style="plain" id="XCy-zk-MwC">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Cf5-CD-i07">
                                 <rect key="frame" x="16" y="4" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Create" image="newpost1">
+                                <state key="normal" title="Create" image="compose_icon">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -50,6 +57,7 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d07-5z-aux">
                                 <rect key="frame" x="274" y="7" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Settings" image="settings2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -336,7 +344,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-jw-ML4">
-                                <rect key="frame" x="126" y="105" width="68" height="30"/>
+                                <rect key="frame" x="126" y="225" width="68" height="30"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
@@ -347,6 +355,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ySm-jw-ML4" firstAttribute="centerX" secondItem="f7Y-ww-xtq" secondAttribute="centerX" id="50e-qT-qZ5"/>
+                            <constraint firstItem="ySm-jw-ML4" firstAttribute="centerY" secondItem="f7Y-ww-xtq" secondAttribute="centerY" id="Dh9-U8-r44"/>
                             <constraint firstItem="ySm-jw-ML4" firstAttribute="top" secondItem="1xr-e4-8ce" secondAttribute="bottom" constant="41" id="gYv-CJ-dnK"/>
                         </constraints>
                     </view>
@@ -382,12 +391,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="newpost1" width="128" height="128"/>
+        <image name="compose_icon" width="128" height="128"/>
         <image name="settings1" width="128" height="128"/>
         <image name="settings2" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KcA-vz-0ol"/>
+        <segue reference="jM3-xE-6tl"/>
         <segue reference="1Vv-q3-VkY"/>
     </inferredMetricsTieBreakers>
 </document>

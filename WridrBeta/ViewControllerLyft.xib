@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerLyft" customModule="Wridr" customModuleProvider="target">
             <connections>
+                <outlet property="lyftTableView" destination="5cg-Gi-LDw" id="GpJ-0o-MAL"/>
                 <outlet property="view" destination="5cg-Gi-LDw" id="Wpr-VC-ymX"/>
             </connections>
         </placeholder>
@@ -19,7 +20,6 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="93" y="-240"/>
         </tableView>
     </objects>
