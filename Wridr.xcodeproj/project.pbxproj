@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6C354DF1E5B6FE800306365 /* wridrgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = B6C354DE1E5B6FE800306365 /* wridrgif.gif */; };
 		B6C354E11E5B70E800306365 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */; };
 		CE2145631DFD4FA6003B392C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2145621DFD4FA6003B392C /* SettingsViewController.swift */; };
 		CE43097E1E3EC2F20016D2AB /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6C354DE1E5B6FE800306365 /* wridrgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = wridrgif.gif; path = ../../../Downloads/wridrgif.gif; sourceTree = "<group>"; };
 		B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		CE2145621DFD4FA6003B392C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 		CE9B1A941DEA30C30059E8FD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B6C354DE1E5B6FE800306365 /* wridrgif.gif */,
 				CEAD5AEB1DBD20D5002251F8 /* Assets.xcassets */,
 			);
 			name = Assets;
@@ -251,7 +248,6 @@
 				CEAD5AEC1DBD20D5002251F8 /* Assets.xcassets in Resources */,
 				CEAD5AFD1DBD2330002251F8 /* ViewControllerLyft.xib in Resources */,
 				CEAD5B011DBD2341002251F8 /* ViewControllerTaxi.xib in Resources */,
-				B6C354DF1E5B6FE800306365 /* wridrgif.gif in Resources */,
 				CEC65C531DE1004F0061D79F /* ViewControllerUber.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
