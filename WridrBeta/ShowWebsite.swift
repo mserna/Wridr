@@ -17,8 +17,13 @@ class ShowWebsite: UIViewController
         super.viewDidLoad()
         
         super.viewDidLoad()
-        let url = URL(string: "wridr.com")
-        let request = URLRequest(url: url!)
-        website.loadRequest(request)
+        if let websiteURL = URL(string: "http://wridr.com")
+        {
+            if UIApplication.shared.canOpenURL(websiteURL)
+            {
+                let request = URLRequest(url: websiteURL)
+                website.loadRequest(request)
+            }
+       }
     }
 }

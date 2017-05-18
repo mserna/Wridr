@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,19 +23,25 @@
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>f6478c978feececffe3c7f378fd1ab1063e8c764</string>
+		<string>85e746c379dbe24886b80fa622ffb81fdb00b4f8</string>
 		<key>Kits</key>
 		<array>
 			<dict>
 				<key>KitInfo</key>
 				<dict>
 					<key>consumerKey</key>
-					<string>hhNP4EhVuQF7eV252PA1W9xAZ</string>
+					<string>TTAJgZnRxXh4dLG34YgEq7Lfb</string>
 					<key>consumerSecret</key>
-					<string>Y8oMs0cPHhHE6qFX9jXPCZ9XvuPt3KsDhCJ2vPaKNMnDxP5JFh</string>
+					<string>K3TF5c22DLUecnaoyBr9GkDGUW3PsUHXSAfTbQOJ1w4dFzsTci</string>
 				</dict>
 				<key>KitName</key>
 				<string>Twitter</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
 			</dict>
 		</array>
 	</dict>
@@ -41,6 +49,16 @@
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>wridr.com</key>
+			<string></string>
+		</dict>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

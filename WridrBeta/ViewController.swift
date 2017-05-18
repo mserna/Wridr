@@ -17,8 +17,8 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
     {
         let composer = TWTRComposer()
         
-        composer.setText("#wridr: ")
         composer.setImage(UIImage(named: "fabric"))
+        composer.setText("#wridr")
         
         // Called from a UIViewController
         composer.show(from: self)
@@ -50,28 +50,30 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
     
     @IBOutlet weak var scrollView: UIScrollView!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
+        //Navbar color
+        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
+        
+        //Changes background color to match navbar
+        self.view.backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        
         //Changes navbar title to custom Wridr logo
-        let logo = UIImage(named: "wridr5.png")
+        let logo = UIImage(named: "wridr128.png")
         let imageView = UIImageView(image: logo)
         self.navigationItem.titleView = imageView
         
         //Acts as the super class for UICollectionViewController
         scrollView.delegate = self
-        
-        /*Checks to see if the use is authenticated*/
-        //Checks if user is authenticated, if not, asks for login
-        Twitter.sharedInstance().logIn {(session, error) in
-            if session != nil {
-                print("logged in user with id \(session?.userID) or \(session?.userName)")
-
-            } else {
-                self.performSegue(withIdentifier: "LoginVCSegue", sender: nil)
-            }
-        }//End Twitter login check
         
         //Creates menubar space
         setupMenuBar()

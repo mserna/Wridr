@@ -9,6 +9,7 @@
 import UIKit
 import Fabric
 import TwitterKit
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate
@@ -19,15 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
-        
         //From Twitter API
         Fabric.with([Twitter.self])
+        
+        //From Crashlytics API
+        Fabric.with([Crashlytics.self, Twitter.self])
 
-        //Navbar color
-        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-        UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
+//        //Navbar color
+//        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+//        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+//        UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
+//        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
             
             
         //Remove navbar shadow

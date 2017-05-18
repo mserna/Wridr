@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64F40411EB4F776009640BA /* IntroductionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F40401EB4F776009640BA /* IntroductionPage.swift */; };
+		B6A154371E7CED54001F50F2 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A154361E7CED54001F50F2 /* Crashlytics.framework */; };
+		B6AD08E91EAD85F500E91A9B /* InstagramProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD08E81EAD85F500E91A9B /* InstagramProfile.swift */; };
 		B6C354E11E5B70E800306365 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */; };
 		CE2145631DFD4FA6003B392C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2145621DFD4FA6003B392C /* SettingsViewController.swift */; };
 		CE43097E1E3EC2F20016D2AB /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B64F40401EB4F776009640BA /* IntroductionPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionPage.swift; sourceTree = "<group>"; };
+		B6A154361E7CED54001F50F2 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		B6AD08E81EAD85F500E91A9B /* InstagramProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramProfile.swift; sourceTree = "<group>"; };
 		B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		CE2145621DFD4FA6003B392C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
@@ -75,6 +81,7 @@
 			files = (
 				CEBAFD611DEE2A3B0075CB0D /* Fabric.framework in Frameworks */,
 				CEBAFD641DEE2A3B0075CB0D /* TwitterCore.framework in Frameworks */,
+				B6A154371E7CED54001F50F2 /* Crashlytics.framework in Frameworks */,
 				CEBAFD621DEE2A3B0075CB0D /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +92,7 @@
 		CE2145611DFD47B7003B392C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CEFB1B3A1E061F4C00F5A8C2 /* MenuBar.swift */,
 				CECD255F1DF54C5A0064F8FB /* ProfileViewController.swift */,
 				CEBAFD671DEFD0B80075CB0D /* LoginViewController.swift */,
 				CE5E88121DF36BA100FC2B29 /* NewViewController.swift */,
@@ -96,6 +104,8 @@
 				CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */,
 				CE43097F1E3EC7160016D2AB /* ShowWebsite.swift */,
 				B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */,
+				B6AD08E81EAD85F500E91A9B /* InstagramProfile.swift */,
+				B64F40401EB4F776009640BA /* IntroductionPage.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -129,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				CEBAFD5D1DEE2A3B0075CB0D /* Fabric.framework */,
+				B6A154361E7CED54001F50F2 /* Crashlytics.framework */,
 				CEBAFD5E1DEE2A3B0075CB0D /* TwitterKit.framework */,
 				CEBAFD5F1DEE2A3B0075CB0D /* TwitterKitResources.bundle */,
 				CEBAFD601DEE2A3B0075CB0D /* TwitterCore.framework */,
@@ -168,7 +179,6 @@
 				CEAD5AFF1DBD2341002251F8 /* ViewControllerTaxi.xib */,
 				CEAD5AFB1DBD2330002251F8 /* ViewControllerLyft.xib */,
 				CEC65C511DE1004F0061D79F /* ViewControllerUber.xib */,
-				CEFB1B3A1E061F4C00F5A8C2 /* MenuBar.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -214,7 +224,7 @@
 				TargetAttributes = {
 					CEAD5AE01DBD20D4002251F8 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = MF6426NK34;
+						DevelopmentTeam = 2ESEJY2UGP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,7 +276,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run f6478c978feececffe3c7f378fd1ab1063e8c764 8d33550b41095570a6309a08d83370ae4c4c23dd2276f19fbf844f1a33192494";
+			shellScript = "./Fabric.framework/run 85e746c379dbe24886b80fa622ffb81fdb00b4f8 8d33550b41095570a6309a08d83370ae4c4c23dd2276f19fbf844f1a33192494";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -287,10 +297,12 @@
 				CEAD5AE51DBD20D5002251F8 /* AppDelegate.swift in Sources */,
 				CEC65C521DE1004F0061D79F /* ViewControllerUber.swift in Sources */,
 				CECD25601DF54C5A0064F8FB /* ProfileViewController.swift in Sources */,
+				B64F40411EB4F776009640BA /* IntroductionPage.swift in Sources */,
 				CE5E88131DF36BA100FC2B29 /* NewViewController.swift in Sources */,
 				CEBAFD681DEFD0B80075CB0D /* LoginViewController.swift in Sources */,
 				CEFB1B391E061EE100F5A8C2 /* Extensions.swift in Sources */,
 				CE2145631DFD4FA6003B392C /* SettingsViewController.swift in Sources */,
+				B6AD08E91EAD85F500E91A9B /* InstagramProfile.swift in Sources */,
 				CEE143A51E0697DC0075E39D /* ParentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +410,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,15 +422,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				DEVELOPMENT_TEAM = MF6426NK34;
+				DEVELOPMENT_TEAM = 2ESEJY2UGP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WridrBeta/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.WridrBeta;
+				PRODUCT_BUNDLE_IDENTIFIER = "-8M3CL8X74.com.example.wridr";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,15 +442,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				DEVELOPMENT_TEAM = MF6426NK34;
+				DEVELOPMENT_TEAM = 2ESEJY2UGP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WridrBeta/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.WridrBeta;
+				PRODUCT_BUNDLE_IDENTIFIER = "-8M3CL8X74.com.example.wridr";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
