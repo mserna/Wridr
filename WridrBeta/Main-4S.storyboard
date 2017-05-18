@@ -104,7 +104,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5Y-98-ILb">
                                                     <rect key="frame" x="266" y="6" width="46" height="30"/>
-                                                    <state key="normal" title="Visit"/>
+                                                    <state key="normal" title="Visit">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="visitWebsite:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="OMY-Ek-VHn"/>
                                                     </connections>
@@ -132,7 +134,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ei-bj-DrK">
                                                     <rect key="frame" x="266" y="7" width="46" height="30"/>
-                                                    <state key="normal" title="E-Mail"/>
+                                                    <state key="normal" title="E-Mail">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="emailWridr:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="fXC-J8-l6P"/>
                                                     </connections>
@@ -160,7 +164,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-N4-GHv">
                                                     <rect key="frame" x="266" y="7" width="46" height="30"/>
-                                                    <state key="normal" title="Show"/>
+                                                    <state key="normal" title="Show">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="showTermsOfService:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="D0e-Zn-g0e"/>
                                                     </connections>
@@ -193,7 +199,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utE-4T-qwO">
                                                     <rect key="frame" x="238" y="0.0" width="74" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Connect"/>
+                                                    <state key="normal" title="Connect">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="connectToTwitter:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="wfg-Ca-oXM"/>
                                                     </connections>
@@ -226,7 +234,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbW-6A-FOT">
                                                     <rect key="frame" x="238" y="0.0" width="74" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Follow"/>
+                                                    <state key="normal" title="Follow">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="followOnTwiiter:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="0iW-IM-yWh"/>
                                                     </connections>
@@ -255,7 +265,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Z9-Dw-gJu">
                                                     <rect key="frame" x="238" y="0.0" width="74" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Follow"/>
+                                                    <state key="normal" title="Follow">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="followOnInstagram:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="CfI-d4-1bU"/>
                                                     </connections>
@@ -284,7 +296,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYg-n4-juA">
                                                     <rect key="frame" x="238" y="0.0" width="74" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Follow"/>
+                                                    <state key="normal" title="Follow">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="followOnFacebook:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="aWF-CJ-lsC"/>
                                                     </connections>
@@ -310,7 +324,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi1-I1-skp">
                                                     <rect key="frame" x="128" y="6" width="65" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Log Out"/>
+                                                    <state key="normal" title="Log Out">
+                                                        <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="logoutOfTwitter:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="aRK-ia-xWE"/>
                                                     </connections>
