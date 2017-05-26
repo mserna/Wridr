@@ -41,6 +41,10 @@ class SettingsViewController: UITableViewController, UIWebViewDelegate
     @IBAction func logoutOfTwitter(_ sender: UIButton)
     {
         print("Logged out!")
+        let store = Twitter.sharedInstance().sessionStore
+        if let userID = store.session()?.userID {
+            store.logOutUserID(userID)
+        }
     }
     
     //MARK: Terms of Service

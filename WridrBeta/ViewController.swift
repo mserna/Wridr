@@ -75,9 +75,6 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         //Acts as the super class for UICollectionViewController
         scrollView.delegate = self
         
-        //Creates menubar space
-        setupMenuBar()
-        
         //Hides back button from navbar
         //self.navigationItem.hidesBackButton = true
         
@@ -102,7 +99,12 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         self.scrollView.addSubview(vcTaxi.view)
         vcTaxi.didMove(toParentViewController: self)
         
-        self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 66)
+        self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 115)
+        
+        scrollView?.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
+        
+        //Creates menubar space
+        setupMenuBar()
     }
     
     lazy var menuBar : MenuBar =
@@ -133,13 +135,13 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         switch menuIndex
         {
         case 0:
-            scrollView.setContentOffset(CGPoint(x: self.vcUber.view.frame.origin.x, y: self.vcUber.view.frame.origin.y - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcUber.view.frame.origin.x, y: self.vcUber.view.frame.origin.y - 115), animated: true)
         case 1:
-            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x, y: self.vcLyft.view.frame.origin.y - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x, y: self.vcLyft.view.frame.origin.y - 115), animated: true)
         case 2:
-            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x * 2, y: self.vcLyft.view.frame.origin.y - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x * 2, y: self.vcLyft.view.frame.origin.y - 115), animated: true)
         default:
-            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x,y: self.vcLyft.view.frame.origin.x - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x,y: self.vcLyft.view.frame.origin.x - 115), animated: true)
         }
     }
 

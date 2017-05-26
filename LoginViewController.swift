@@ -41,7 +41,7 @@ class LoginViewController: UIViewController
             }
             else
             {
-                NSLog("Login error: %@", error!.localizedDescription);
+                NSLog("Login erroror: %@", error!.localizedDescription);
             }
         }
         

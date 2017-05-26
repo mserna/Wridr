@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKG-l8-xmj">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKG-l8-xmj">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </scrollView>
                         </subviews>
@@ -452,7 +452,7 @@
         <!--Introduction Page-->
         <scene sceneID="TuK-xY-Skt">
             <objects>
-                <viewController id="Gaj-Pb-lHf" customClass="IntroductionPage" customModule="Wridr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntroductiaonPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gaj-Pb-lHf" customClass="IntroductionPage" customModule="Wridr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lzy-bT-cYn"/>
                         <viewControllerLayoutGuide type="bottom" id="7iw-qc-jNb"/>

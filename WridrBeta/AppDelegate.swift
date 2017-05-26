@@ -25,13 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         
         //From Crashlytics API
         Fabric.with([Crashlytics.self, Twitter.self])
-
-//        //Navbar color
-//        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-//        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-//        UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
-//        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
-            
             
         //Remove navbar shadow
         UINavigationBar.appearance().shadowImage = UIImage()
