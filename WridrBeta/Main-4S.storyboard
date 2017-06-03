@@ -452,7 +452,7 @@
         <!--Introduction Page-->
         <scene sceneID="TuK-xY-Skt">
             <objects>
-                <viewController storyboardIdentifier="IntroductiaonPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gaj-Pb-lHf" customClass="IntroductionPage" customModule="Wridr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntroductionPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gaj-Pb-lHf" customClass="IntroductionPage" customModule="Wridr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lzy-bT-cYn"/>
                         <viewControllerLayoutGuide type="bottom" id="7iw-qc-jNb"/>
