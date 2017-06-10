@@ -12,9 +12,9 @@ import TwitterKit
 class SettingsViewController: UITableViewController, UIWebViewDelegate
 {
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
     }
     
     //MARK: Login to Twitter

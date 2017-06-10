@@ -51,6 +51,11 @@ class IntroductionPage : UIViewController
    
     @IBAction func guestLogin(_ sender: UIButton)
     {
+        let store = Twitter.sharedInstance().sessionStore
+        if let userID = store.session()?.userID {
+            store.logOutUserID(userID)
+            print("Logged out of Twitter")
+        }
         self.goToMain()
     }
     
