@@ -18,7 +18,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         let composer = TWTRComposer()
         
         composer.setImage(UIImage(named: "fabric"))
-        composer.setText("#wridr")
+        composer.setText("#wridr ")
         
         // Called from a UIViewController
         composer.show(from: self)

@@ -18,7 +18,7 @@ class ViewControllerLyft: TWTRTimelineViewController
         super.viewDidLoad()
         
         let client = TWTRAPIClient()
-        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my lyft driver", apiClient: client)
+        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my+lyft+driver OR wridr", apiClient: client)
         showTweetActions = true
     }
     
