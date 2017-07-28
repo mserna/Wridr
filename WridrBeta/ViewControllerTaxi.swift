@@ -18,7 +18,8 @@ class ViewControllerTaxi: TWTRTimelineViewController
         super.viewDidLoad()
         
         let client = TWTRAPIClient()
-        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my+taxi+driver OR wridr", apiClient: client)
+        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my+lyft+taxi OR wridr", apiClient: client)
+        showTweetActions = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
