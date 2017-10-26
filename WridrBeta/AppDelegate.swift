@@ -7,24 +7,22 @@
 //
 
 import UIKit
-import Fabric
 import TwitterKit
-import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate
 {
 
     var window: UIWindow?
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return Twitter.sharedInstance().application(app, open: url, options: options)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
-        //From Twitter API
-        Fabric.with([Twitter.self])
-        
-        //From Crashlytics API
-        Fabric.with([Crashlytics.self, Twitter.self])
+        //Using new TwitterKit
+        Twitter.sharedInstance().start(withConsumerKey:"TTAJgZnRxXh4dLG34YgEq7Lfb", consumerSecret:"K3TF5c22DLUecnaoyBr9GkDGUW3PsUHXSAfTbQOJ1w4dFzsTci")
             
         //Remove navbar shadow
         UINavigationBar.appearance().shadowImage = UIImage()

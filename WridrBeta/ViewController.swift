@@ -11,34 +11,32 @@ import TwitterKit
 
 class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, UITabBarControllerDelegate, UICollectionViewDelegateFlowLayout
 {
-    
     /*Create new twitter message story*/
-    @IBAction func createNewStory(_ sender: AnyObject)
+    @IBAction func createNewStory(_ sender: UIBarButtonItem)
     {
-        let composer = TWTRComposer()
-        
-        composer.setImage(UIImage(named: "fabric"))
-        composer.setText("#wridr ")
-        
-        // Called from a UIViewController
-        composer.show(from: self)
-        { result in
-            if (result == TWTRComposerResult.cancelled)
-            {
-                print("Tweet composition cancelled")
-            }
-            else {
-                print("Sending tweet!")
+        if (Twitter.sharedInstance().sessionStore.hasLoggedInUsers()) {
+            // App must have at least one logged-in user to compose a Tweet
+            let composer = TWTRComposerViewController.init(initialText: "#wridr ", image: nil, videoURL: nil)
+            present(composer, animated: true, completion: nil)
+        } else {
+            // Log in, and then check again
+            Twitter.sharedInstance().logIn { session, error in
+                if session != nil { // Log in succeeded
+                    let composer = TWTRComposerViewController.init(initialText: "#wridr ", image: nil, videoURL: nil)
+                    self.present(composer, animated: true, completion: nil)
+                } else {
+                    let alert = UIAlertController(title: "No Twitter Accounts Available", message: "You must log in before presenting a composer.", preferredStyle: .alert)
+                    self.present(alert, animated: false, completion: nil)
+                }
             }
         }
     }
     
     /*Enter settings page*/
-    @IBAction func settingsButton(_ sender: UIButton)
+    @IBAction func settingsButton(_ sender: UIBarButtonItem)
     {
         self.performSegue(withIdentifier: "settingsSegue", sender: nil)
     }
-    
     
     //Declare viewControllers
     let vcUber = ViewControllerUber(nibName: "ViewControllerUber", bundle: nil)
@@ -50,7 +48,8 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
     
     @IBOutlet weak var scrollView: UIScrollView!
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
+    override var preferredStatusBarStyle: UIStatusBarStyle
+    {
         return .lightContent
     }
     
@@ -74,9 +73,6 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         
         //Acts as the super class for UICollectionViewController
         scrollView.delegate = self
-        
-        //Hides back button from navbar
-        //self.navigationItem.hidesBackButton = true
         
         //Create scrollView
         self.addChildViewController(vcUber)
