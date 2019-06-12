@@ -11,13 +11,15 @@ import TwitterKit
 
 class ViewControllerLyft: TWTRTimelineViewController
 {
+    @IBOutlet var lyftTableView: UITableView!
+
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
         let client = TWTRAPIClient()
-        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my lyft driver", apiClient: client)
+        self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my+lyft+driver OR wridr", apiClient: client)
         showTweetActions = true
     }
     
@@ -28,6 +30,7 @@ class ViewControllerLyft: TWTRTimelineViewController
     
     override func viewWillLayoutSubviews()
     {
-        
+        super.viewDidAppear(animated)
+        lyftTableView.frame = CGRect(x: self.view.frame.origin.x, y: self.view.frame.origin.y, width: UIScreen.main.bounds.size.width, height: self.view.frame.size.height + 120)
     }
 }

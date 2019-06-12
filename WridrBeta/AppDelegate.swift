@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Fabric
 import TwitterKit
 
 @UIApplicationMain
@@ -15,28 +14,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate
 {
 
     var window: UIWindow?
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return Twitter.sharedInstance().application(app, open: url, options: options)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
-        
-        //From Twitter API
-        Fabric.with([Twitter.self])
-        
-        //Auto-Layout
-        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-            window = UIWindow(frame: UIScreen.main.bounds)
-            window!.rootViewController = ViewController()
-            window!.makeKeyAndVisible()
-            return true
-        }
-
-        //Navbar color
-        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-        UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
-            
+        //Using new TwitterKit
+        Twitter.sharedInstance().start(withConsumerKey:"TTAJgZnRxXh4dLG34YgEq7Lfb", consumerSecret:"K3TF5c22DLUecnaoyBr9GkDGUW3PsUHXSAfTbQOJ1w4dFzsTci")
             
         //Remove navbar shadow
         UINavigationBar.appearance().shadowImage = UIImage()

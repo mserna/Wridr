@@ -11,34 +11,32 @@ import TwitterKit
 
 class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, UITabBarControllerDelegate, UICollectionViewDelegateFlowLayout
 {
-    
     /*Create new twitter message story*/
-    @IBAction func createNewStory(_ sender: AnyObject)
+    @IBAction func createNewStory(_ sender: UIBarButtonItem)
     {
-        let composer = TWTRComposer()
-        
-        composer.setText("#wridr: ")
-        composer.setImage(UIImage(named: "fabric"))
-        
-        // Called from a UIViewController
-        composer.show(from: self)
-        { result in
-            if (result == TWTRComposerResult.cancelled)
-            {
-                print("Tweet composition cancelled")
-            }
-            else {
-                print("Sending tweet!")
+        if (Twitter.sharedInstance().sessionStore.hasLoggedInUsers()) {
+            // App must have at least one logged-in user to compose a Tweet
+            let composer = TWTRComposerViewController.init(initialText: "#wridr ", image: nil, videoURL: nil)
+            present(composer, animated: true, completion: nil)
+        } else {
+            // Log in, and then check again
+            Twitter.sharedInstance().logIn { session, error in
+                if session != nil { // Log in succeeded
+                    let composer = TWTRComposerViewController.init(initialText: "#wridr ", image: nil, videoURL: nil)
+                    self.present(composer, animated: true, completion: nil)
+                } else {
+                    let alert = UIAlertController(title: "No Twitter Accounts Available", message: "You must log in before presenting a composer.", preferredStyle: .alert)
+                    self.present(alert, animated: false, completion: nil)
+                }
             }
         }
     }
     
     /*Enter settings page*/
-    @IBAction func settingsButton(_ sender: UIButton)
+    @IBAction func settingsButton(_ sender: UIBarButtonItem)
     {
         self.performSegue(withIdentifier: "settingsSegue", sender: nil)
     }
-    
     
     //Declare viewControllers
     let vcUber = ViewControllerUber(nibName: "ViewControllerUber", bundle: nil)
@@ -50,31 +48,31 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
     
     @IBOutlet weak var scrollView: UIScrollView!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle
+    {
+        return .lightContent
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
+        //Navbar color
+        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
+        
+        //Changes background color to match navbar
+        self.view.backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        
         //Changes navbar title to custom Wridr logo
-        let logo = UIImage(named: "wridr.png")
+        let logo = UIImage(named: "wridr128.png")
         let imageView = UIImageView(image: logo)
         self.navigationItem.titleView = imageView
         
         //Acts as the super class for UICollectionViewController
         scrollView.delegate = self
-        
-        /*Checks to see if the use is authenticated*/
-        //Checks if user is authenticated, if not, asks for login
-        Twitter.sharedInstance().logIn {(session, error) in
-            if session != nil {
-                print("logged in user with id \(session?.userID) or \(session?.userName)")
-
-            } else {
-                self.performSegue(withIdentifier: "LoginVCSegue", sender: nil)
-            }
-        }//End Twitter login check
-        
-        //Creates menubar space
-        setupMenuBar()
         
         //Create scrollView
         self.addChildViewController(vcUber)
@@ -97,7 +95,12 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         self.scrollView.addSubview(vcTaxi.view)
         vcTaxi.didMove(toParentViewController: self)
         
-        self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 66)
+        self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 115)
+        
+        scrollView?.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
+        
+        //Creates menubar space
+        setupMenuBar()
     }
     
     lazy var menuBar : MenuBar =
@@ -128,13 +131,13 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         switch menuIndex
         {
         case 0:
-            scrollView.setContentOffset(CGPoint(x: self.vcUber.view.frame.origin.x, y: self.vcUber.view.frame.origin.y - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcUber.view.frame.origin.x, y: self.vcUber.view.frame.origin.y - 115), animated: true)
         case 1:
-            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x, y: self.vcLyft.view.frame.origin.y - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x, y: self.vcLyft.view.frame.origin.y - 115), animated: true)
         case 2:
-            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x * 2, y: self.vcLyft.view.frame.origin.y - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x * 2, y: self.vcLyft.view.frame.origin.y - 115), animated: true)
         default:
-            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x,y: self.vcLyft.view.frame.origin.x - 65), animated: true)
+            scrollView.setContentOffset(CGPoint(x: self.vcLyft.view.frame.origin.x,y: self.vcLyft.view.frame.origin.x - 115), animated: true)
         }
     }
 

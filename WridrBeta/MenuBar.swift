@@ -15,7 +15,7 @@ class MenuBar : UIView, UICollectionViewDataSource, UICollectionViewDelegate, UI
     {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        cv.backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 0.2)
         cv.delegate = self
         cv.dataSource = self
         return cv
