@@ -22,6 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                          
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKG-l8-xmj">
                                 <rect key="frame" x="0.0" y="-11" width="375" height="678"/>
                             </scrollView>
@@ -85,6 +86,7 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5Y-98-ILb">
                                                     <rect key="frame" x="266" y="6" width="46" height="30"/>
+
                                                     <state key="normal" title="Visit">
                                                         <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -94,8 +96,10 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+
                                                 <constraint firstAttribute="trailingMargin" secondItem="m5Y-98-ILb" secondAttribute="trailing" id="pKH-qx-tcV"/>
                                                 <constraint firstItem="m5Y-98-ILb" firstAttribute="centerY" secondItem="OHX-mv-8oq" secondAttribute="centerY" id="wCt-1j-MLN"/>
+                                              
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -115,17 +119,21 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ei-bj-DrK">
                                                     <rect key="frame" x="266" y="7" width="46" height="30"/>
+
                                                     <state key="normal" title="E-Mail">
                                                         <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+
                                                     <connections>
                                                         <action selector="emailWridr:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="fXC-J8-l6P"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
+
                                                 <constraint firstItem="0ei-bj-DrK" firstAttribute="centerY" secondItem="LR6-9O-LBS" secondAttribute="centerY" id="Ulh-AG-wyi"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="0ei-bj-DrK" secondAttribute="trailing" id="m5k-Ke-Gxg"/>
+
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -145,17 +153,21 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-N4-GHv">
                                                     <rect key="frame" x="266" y="7" width="46" height="30"/>
+
                                                     <state key="normal" title="Show">
                                                         <color key="titleColor" red="0.59487443910000004" green="0.039674296349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+
                                                     <connections>
                                                         <action selector="showTermsOfService:" destination="eSl-Ow-3SR" eventType="touchUpInside" id="D0e-Zn-g0e"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
+
                                                 <constraint firstItem="HP3-N4-GHv" firstAttribute="centerY" secondItem="9tW-HE-HdY" secondAttribute="centerY" id="TRs-rj-zc5"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="HP3-N4-GHv" secondAttribute="trailing" id="uAV-7P-GHk"/>
+
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -189,8 +201,10 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+
                                                 <constraint firstAttribute="trailingMargin" secondItem="utE-4T-qwO" secondAttribute="trailing" id="2Lj-bp-QLc"/>
                                                 <constraint firstItem="utE-4T-qwO" firstAttribute="centerY" secondItem="bFQ-qH-mxr" secondAttribute="centerY" id="eMT-Pc-9PZ"/>
+
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -314,8 +328,10 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+
                                                 <constraint firstItem="Vi1-I1-skp" firstAttribute="centerY" secondItem="SGF-df-Dh2" secondAttribute="centerY" id="SD5-cC-Bsa"/>
                                                 <constraint firstItem="Vi1-I1-skp" firstAttribute="centerX" secondItem="SGF-df-Dh2" secondAttribute="centerX" id="dJc-EJ-NHS"/>
+
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -404,6 +420,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBu-Es-WKr">
                                 <rect key="frame" x="172.5" y="316.5" width="30" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -412,6 +429,7 @@
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wridr splash page 2" translatesAutoresizingMaskIntoConstraints="NO" id="89d-Xh-RaN">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
@@ -419,10 +437,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+
                             <constraint firstItem="89d-Xh-RaN" firstAttribute="width" secondItem="0K2-LN-hst" secondAttribute="width" id="0yy-bX-esg"/>
                             <constraint firstItem="89d-Xh-RaN" firstAttribute="centerY" secondItem="0K2-LN-hst" secondAttribute="centerY" id="Ac4-v8-qYg"/>
                             <constraint firstItem="89d-Xh-RaN" firstAttribute="height" secondItem="0K2-LN-hst" secondAttribute="height" id="bao-tu-L0f"/>
                             <constraint firstItem="89d-Xh-RaN" firstAttribute="centerX" secondItem="0K2-LN-hst" secondAttribute="centerX" id="gfP-YI-WsC"/>
+
                         </constraints>
                     </view>
                     <connections>
@@ -455,11 +475,13 @@
         </scene>
     </scenes>
     <resources>
+
         <image name="composenew" width="42" height="42"/>
         <image name="settings1" width="42" height="42"/>
         <image name="wridr splash page 2" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ffR-uF-iqN"/>
+
     </inferredMetricsTieBreakers>
 </document>

@@ -74,7 +74,7 @@
 		</dict>
 	</dict>
 	<key>UILaunchStoryboardName</key>
-	<string>Main-4S</string>
+	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main-4S</string>
 	<key>UIRequiredDeviceCapabilities</key>
