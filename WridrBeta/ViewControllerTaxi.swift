@@ -21,12 +21,6 @@ class ViewControllerTaxi: TWTRTimelineViewController
         self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "my+lyft+taxi OR wridr", apiClient: client)
         showTweetActions = true
     }
-    
-
-    override func viewWillAppear(_ animated: Bool)
-    {
-        super.viewWillAppear(animated)
-    }
   
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

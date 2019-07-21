@@ -30,7 +30,7 @@ class ViewControllerLyft: TWTRTimelineViewController
     
     override func viewWillLayoutSubviews()
     {
-        super.viewDidAppear(animated)
+        super.viewWillAppear(true)
         lyftTableView.frame = CGRect(x: self.view.frame.origin.x, y: self.view.frame.origin.y, width: UIScreen.main.bounds.size.width, height: self.view.frame.size.height + 120)
     }
 }

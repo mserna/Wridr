@@ -10,9 +10,9 @@ import UIKit
 
 class myTableCell: UITableViewCell
 {
-    override init(style: UITableViewCellStyle, reuseIdentifier: String!)
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String!)
     {
-        super.init(style: UITableViewCellStyle.value1, reuseIdentifier: reuseIdentifier)
+        super.init(style: UITableViewCell.CellStyle.value1, reuseIdentifier: reuseIdentifier)
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -58,13 +58,13 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         super.viewDidLoad()
         
         //Navbar color
-        UINavigationBar.appearance().backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
-        UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        UINavigationBar.appearance().backgroundColor = UIColor(red: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)//UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
         UINavigationBar.appearance().tintColor = UIColor.white //Changes color for back buttons
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white] //Changes title color
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white] //Changes title color
         
         //Changes background color to match navbar
-        self.view.backgroundColor = UIColor(colorLiteralRed: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
+        self.view.backgroundColor = UIColor(red: 0.65, green: 0.15, blue: 0.60, alpha: 1.0)
         
         //Changes navbar title to custom Wridr logo
         let logo = UIImage(named: "wridr128.png")
@@ -75,25 +75,25 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         scrollView.delegate = self
         
         //Create scrollView
-        self.addChildViewController(vcUber)
+        self.addChild(vcUber)
         self.scrollView.addSubview(vcUber.view)
-        vcUber.didMove(toParentViewController: self)
+        vcUber.didMove(toParent: self)
     
         var frame1 = vcLyft.view.frame
         frame1.origin.x = self.view.frame.size.width
         vcLyft.view.frame = frame1
         
-        self.addChildViewController(vcLyft)
+        self.addChild(vcLyft)
         self.scrollView.addSubview(vcLyft.view)
-        vcLyft.didMove(toParentViewController: self)
+        vcLyft.didMove(toParent: self)
         
         var frame2 = vcTaxi.view.frame
         frame2.origin.x = self.view.frame.size.width * 2
         vcTaxi.view.frame = frame2
         
-        self.addChildViewController(vcTaxi)
+        self.addChild(vcTaxi)
         self.scrollView.addSubview(vcTaxi.view)
-        vcTaxi.didMove(toParentViewController: self)
+        vcTaxi.didMove(toParent: self)
         
         self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 115)
         
