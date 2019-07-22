@@ -1,0 +1,6 @@
+framework module Pods_Wridr {
+  umbrella header "Pods-Wridr-umbrella.h"
+
+  export *
+  module * { export * }
+}

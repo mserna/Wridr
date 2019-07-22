@@ -1,0 +1,4 @@
+target 'Wridr' do
+  use_frameworks!
+  pod 'TwitterKit'
+end
