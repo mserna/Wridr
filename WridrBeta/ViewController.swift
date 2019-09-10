@@ -14,13 +14,13 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
     /*Create new twitter message story*/
     @IBAction func createNewStory(_ sender: UIBarButtonItem)
     {
-        if (Twitter.sharedInstance().sessionStore.hasLoggedInUsers()) {
+        if (TWTRTwitter.sharedInstance().sessionStore.hasLoggedInUsers()) {
             // App must have at least one logged-in user to compose a Tweet
             let composer = TWTRComposerViewController.init(initialText: "#wridr ", image: nil, videoURL: nil)
             present(composer, animated: true, completion: nil)
         } else {
             // Log in, and then check again
-            Twitter.sharedInstance().logIn { session, error in
+            TWTRTwitter.sharedInstance().logIn { session, error in
                 if session != nil { // Log in succeeded
                     let composer = TWTRComposerViewController.init(initialText: "#wridr ", image: nil, videoURL: nil)
                     self.present(composer, animated: true, completion: nil)

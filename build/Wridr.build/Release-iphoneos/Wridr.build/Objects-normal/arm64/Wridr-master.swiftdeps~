@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "5c97f1f6d8bdd36b22f928f11250c6fa"
+build_time: [1568145325, 274654000]
+inputs:
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/ShowWebsite.swift": [1567550495, 888505577]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/TermsOfService.swift": [1567550495, 888585696]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/LaunchScreen.swift": [1567550495, 887869437]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/ViewControllerTaxi.swift": [1567550495, 889545077]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/LaunchScreenViewController.swift": !dirty [1567550495, 887970204]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/ViewController.swift": !dirty [1567550495, 889124514]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/MenuBar.swift": [1567550495, 888211363]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/myTableCell.swift": [1567550495, 889903272]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/ViewControllerLyft.swift": [1567550495, 889292562]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/AppDelegate.swift": !dirty [1567550495, 473791594]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/ViewControllerUber.swift": [1567550495, 889727565]
+  "/Users/matthewserna/Documents/Github/Wridr/ProfileViewController.swift": [1567550495, 242912240]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/IntroductionPage.swift": [1567550495, 887733330]
+  "/Users/matthewserna/Documents/Github/Wridr/NewViewController.swift": [1567550495, 61946694]
+  "/Users/matthewserna/Documents/Github/Wridr/LoginViewController.swift": [1567550495, 61466235]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/Extensions.swift": [1567550495, 887168821]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/SettingsViewController.swift": !dirty [1567550495, 888428889]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/InstagramProfile.swift": [1567550495, 887543441]
+  "/Users/matthewserna/Documents/Github/Wridr/WridrBeta/ParentCell.swift": [1567550495, 888297512]

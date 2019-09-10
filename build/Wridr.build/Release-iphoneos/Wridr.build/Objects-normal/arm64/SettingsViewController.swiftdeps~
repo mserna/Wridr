@@ -1,0 +1,755 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingsViewController"
+provides-nominal:
+- "5Wridr22SettingsViewControllerC"
+provides-member:
+- ["5Wridr22SettingsViewControllerC", ""]
+provides-dynamic-lookup:
+- "connectToTwitter"
+- "emailWridr"
+- "followOnFacebook"
+- "followOnInstagram"
+- "followOnTwiiter"
+- "logoutOfTwitter"
+- "showTermsOfService"
+- "viewDidLoad"
+- "visitWebsite"
+depends-top-level:
+- !private "=="
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "SettingsViewController"
+- "String"
+- !private "StringLiteralType"
+- !private "Twitter"
+- !private "UIApplication"
+- "UIButton"
+- !private "UIStoryboard"
+- "UITableViewController"
+- !private "UIViewController"
+- "UIWebViewDelegate"
+- !private "URL"
+- !private "print"
+depends-member:
+- !private ["s7CVarArgP", "Twitter"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "openFacebook"]
+- !private ["s7CVarArgP", "openFacebook2"]
+- !private ["s7CVarArgP", "openInstagram"]
+- !private ["s7CVarArgP", "openInstagram2"]
+- !private ["s7CVarArgP", "openTwitter"]
+- !private ["s7CVarArgP", "openTwitter2"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewDidFinishLoad"]
+- ["s7CVarArgP", "webViewDidStartLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "Twitter"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "openFacebook"]
+- !private ["s28CustomDebugStringConvertibleP", "openFacebook2"]
+- !private ["s28CustomDebugStringConvertibleP", "openInstagram"]
+- !private ["s28CustomDebugStringConvertibleP", "openInstagram2"]
+- !private ["s28CustomDebugStringConvertibleP", "openTwitter"]
+- !private ["s28CustomDebugStringConvertibleP", "openTwitter2"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidFinishLoad"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidStartLoad"]
+- !private ["s23CustomStringConvertibleP", "Twitter"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- !private ["s23CustomStringConvertibleP", "openFacebook"]
+- !private ["s23CustomStringConvertibleP", "openFacebook2"]
+- !private ["s23CustomStringConvertibleP", "openInstagram"]
+- !private ["s23CustomStringConvertibleP", "openInstagram2"]
+- !private ["s23CustomStringConvertibleP", "openTwitter"]
+- !private ["s23CustomStringConvertibleP", "openTwitter2"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewDidFinishLoad"]
+- ["s23CustomStringConvertibleP", "webViewDidStartLoad"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SQ", "Twitter"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UIStoryboard"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "open"]
+- !private ["SQ", "openFacebook"]
+- !private ["SQ", "openFacebook2"]
+- !private ["SQ", "openInstagram"]
+- !private ["SQ", "openInstagram2"]
+- !private ["SQ", "openTwitter"]
+- !private ["SQ", "openTwitter2"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "webView"]
+- ["SQ", "webViewDidFinishLoad"]
+- ["SQ", "webViewDidStartLoad"]
+- !private ["SH", "Twitter"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UIStoryboard"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "open"]
+- !private ["SH", "openFacebook"]
+- !private ["SH", "openFacebook2"]
+- !private ["SH", "openInstagram"]
+- !private ["SH", "openInstagram2"]
+- !private ["SH", "openTwitter"]
+- !private ["SH", "openTwitter2"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- !private ["SH", "shared"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "webView"]
+- ["SH", "webViewDidFinishLoad"]
+- ["SH", "webViewDidStartLoad"]
+- !private ["So8NSCodingP", "Twitter"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "UIStoryboard"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "openFacebook"]
+- !private ["So8NSCodingP", "openFacebook2"]
+- !private ["So8NSCodingP", "openInstagram"]
+- !private ["So8NSCodingP", "openInstagram2"]
+- !private ["So8NSCodingP", "openTwitter"]
+- !private ["So8NSCodingP", "openTwitter2"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewDidFinishLoad"]
+- ["So8NSCodingP", "webViewDidStartLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Twitter"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "openFacebook"]
+- !private ["So26NSExtensionRequestHandlingP", "openFacebook2"]
+- !private ["So26NSExtensionRequestHandlingP", "openInstagram"]
+- !private ["So26NSExtensionRequestHandlingP", "openInstagram2"]
+- !private ["So26NSExtensionRequestHandlingP", "openTwitter"]
+- !private ["So26NSExtensionRequestHandlingP", "openTwitter2"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "webView"]
+- ["So26NSExtensionRequestHandlingP", "webViewDidFinishLoad"]
+- ["So26NSExtensionRequestHandlingP", "webViewDidStartLoad"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Twitter"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- !private ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "connectToTwitter"]
+- ["So8NSObjectC", "emailWridr"]
+- ["So8NSObjectC", "followOnFacebook"]
+- ["So8NSObjectC", "followOnInstagram"]
+- ["So8NSObjectC", "followOnTwiiter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "logoutOfTwitter"]
+- !private ["So8NSObjectC", "open"]
+- ["So8NSObjectC", "openFacebook"]
+- ["So8NSObjectC", "openFacebook2"]
+- ["So8NSObjectC", "openInstagram"]
+- ["So8NSObjectC", "openInstagram2"]
+- ["So8NSObjectC", "openTwitter"]
+- ["So8NSObjectC", "openTwitter2"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "showTermsOfService"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "visitWebsite"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewDidFinishLoad"]
+- ["So8NSObjectC", "webViewDidStartLoad"]
+- !private ["So8NSObjectP", "Twitter"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "open"]
+- !private ["So8NSObjectP", "openFacebook"]
+- !private ["So8NSObjectP", "openFacebook2"]
+- !private ["So8NSObjectP", "openInstagram"]
+- !private ["So8NSObjectP", "openInstagram2"]
+- !private ["So8NSObjectP", "openTwitter"]
+- !private ["So8NSObjectP", "openTwitter2"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "webView"]
+- ["So8NSObjectP", "webViewDidFinishLoad"]
+- ["So8NSObjectP", "webViewDidStartLoad"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["5Wridr22SettingsViewControllerC", "String"]
+- !private ["5Wridr22SettingsViewControllerC", "Twitter"]
+- !private ["5Wridr22SettingsViewControllerC", "UIApplication"]
+- ["5Wridr22SettingsViewControllerC", "UIButton"]
+- !private ["5Wridr22SettingsViewControllerC", "UIStoryboard"]
+- !private ["5Wridr22SettingsViewControllerC", "UIViewController"]
+- !private ["5Wridr22SettingsViewControllerC", "URL"]
+- ["5Wridr22SettingsViewControllerC", "connectToTwitter"]
+- ["5Wridr22SettingsViewControllerC", "deinit"]
+- ["5Wridr22SettingsViewControllerC", "emailWridr"]
+- ["5Wridr22SettingsViewControllerC", "followOnFacebook"]
+- ["5Wridr22SettingsViewControllerC", "followOnInstagram"]
+- ["5Wridr22SettingsViewControllerC", "followOnTwiiter"]
+- ["5Wridr22SettingsViewControllerC", "init"]
+- ["5Wridr22SettingsViewControllerC", "logoutOfTwitter"]
+- ["5Wridr22SettingsViewControllerC", "openFacebook"]
+- ["5Wridr22SettingsViewControllerC", "openFacebook2"]
+- ["5Wridr22SettingsViewControllerC", "openInstagram"]
+- ["5Wridr22SettingsViewControllerC", "openInstagram2"]
+- ["5Wridr22SettingsViewControllerC", "openTwitter"]
+- ["5Wridr22SettingsViewControllerC", "openTwitter2"]
+- !private ["5Wridr22SettingsViewControllerC", "performSegue"]
+- !private ["5Wridr22SettingsViewControllerC", "present"]
+- !private ["5Wridr22SettingsViewControllerC", "print"]
+- ["5Wridr22SettingsViewControllerC", "showTermsOfService"]
+- ["5Wridr22SettingsViewControllerC", "viewDidLoad"]
+- ["5Wridr22SettingsViewControllerC", "visitWebsite"]
+- ["5Wridr22SettingsViewControllerC", "webView"]
+- ["5Wridr22SettingsViewControllerC", "webViewDidFinishLoad"]
+- ["5Wridr22SettingsViewControllerC", "webViewDidStartLoad"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So21UIAppearanceContainerP", "Twitter"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "openFacebook"]
+- !private ["So21UIAppearanceContainerP", "openFacebook2"]
+- !private ["So21UIAppearanceContainerP", "openInstagram"]
+- !private ["So21UIAppearanceContainerP", "openInstagram2"]
+- !private ["So21UIAppearanceContainerP", "openTwitter"]
+- !private ["So21UIAppearanceContainerP", "openTwitter2"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewDidFinishLoad"]
+- ["So21UIAppearanceContainerP", "webViewDidStartLoad"]
+- !private ["So13UIApplicationC", "open"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "Twitter"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
+- !private ["So18UIContentContainerP", "URL"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "openFacebook"]
+- !private ["So18UIContentContainerP", "openFacebook2"]
+- !private ["So18UIContentContainerP", "openInstagram"]
+- !private ["So18UIContentContainerP", "openInstagram2"]
+- !private ["So18UIContentContainerP", "openTwitter"]
+- !private ["So18UIContentContainerP", "openTwitter2"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "webView"]
+- ["So18UIContentContainerP", "webViewDidFinishLoad"]
+- ["So18UIContentContainerP", "webViewDidStartLoad"]
+- !private ["So18UIFocusEnvironmentP", "Twitter"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "openFacebook"]
+- !private ["So18UIFocusEnvironmentP", "openFacebook2"]
+- !private ["So18UIFocusEnvironmentP", "openInstagram"]
+- !private ["So18UIFocusEnvironmentP", "openInstagram2"]
+- !private ["So18UIFocusEnvironmentP", "openTwitter"]
+- !private ["So18UIFocusEnvironmentP", "openTwitter2"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewDidFinishLoad"]
+- ["So18UIFocusEnvironmentP", "webViewDidStartLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "Twitter"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "open"]
+- !private ["So30UIPasteConfigurationSupportingP", "openFacebook"]
+- !private ["So30UIPasteConfigurationSupportingP", "openFacebook2"]
+- !private ["So30UIPasteConfigurationSupportingP", "openInstagram"]
+- !private ["So30UIPasteConfigurationSupportingP", "openInstagram2"]
+- !private ["So30UIPasteConfigurationSupportingP", "openTwitter"]
+- !private ["So30UIPasteConfigurationSupportingP", "openTwitter2"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidFinishLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidStartLoad"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "Twitter"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- !private ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "connectToTwitter"]
+- ["So11UIResponderC", "emailWridr"]
+- ["So11UIResponderC", "followOnFacebook"]
+- ["So11UIResponderC", "followOnInstagram"]
+- ["So11UIResponderC", "followOnTwiiter"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "logoutOfTwitter"]
+- !private ["So11UIResponderC", "open"]
+- ["So11UIResponderC", "openFacebook"]
+- ["So11UIResponderC", "openFacebook2"]
+- ["So11UIResponderC", "openInstagram"]
+- ["So11UIResponderC", "openInstagram2"]
+- ["So11UIResponderC", "openTwitter"]
+- ["So11UIResponderC", "openTwitter2"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "showTermsOfService"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "visitWebsite"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewDidFinishLoad"]
+- ["So11UIResponderC", "webViewDidStartLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Twitter"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "open"]
+- !private ["So30UIResponderStandardEditActionsP", "openFacebook"]
+- !private ["So30UIResponderStandardEditActionsP", "openFacebook2"]
+- !private ["So30UIResponderStandardEditActionsP", "openInstagram"]
+- !private ["So30UIResponderStandardEditActionsP", "openInstagram2"]
+- !private ["So30UIResponderStandardEditActionsP", "openTwitter"]
+- !private ["So30UIResponderStandardEditActionsP", "openTwitter2"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidFinishLoad"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidStartLoad"]
+- !private ["So20UIScrollViewDelegateP", "Twitter"]
+- !private ["So20UIScrollViewDelegateP", "UIApplication"]
+- !private ["So20UIScrollViewDelegateP", "UIStoryboard"]
+- !private ["So20UIScrollViewDelegateP", "URL"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "openFacebook"]
+- !private ["So20UIScrollViewDelegateP", "openFacebook2"]
+- !private ["So20UIScrollViewDelegateP", "openInstagram"]
+- !private ["So20UIScrollViewDelegateP", "openInstagram2"]
+- !private ["So20UIScrollViewDelegateP", "openTwitter"]
+- !private ["So20UIScrollViewDelegateP", "openTwitter2"]
+- !private ["So20UIScrollViewDelegateP", "performSegue"]
+- !private ["So20UIScrollViewDelegateP", "present"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", "webView"]
+- ["So20UIScrollViewDelegateP", "webViewDidFinishLoad"]
+- ["So20UIScrollViewDelegateP", "webViewDidStartLoad"]
+- !private ["So16UIStateRestoringP", "Twitter"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
+- !private ["So16UIStateRestoringP", "URL"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "openFacebook"]
+- !private ["So16UIStateRestoringP", "openFacebook2"]
+- !private ["So16UIStateRestoringP", "openInstagram"]
+- !private ["So16UIStateRestoringP", "openInstagram2"]
+- !private ["So16UIStateRestoringP", "openTwitter"]
+- !private ["So16UIStateRestoringP", "openTwitter2"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "webView"]
+- ["So16UIStateRestoringP", "webViewDidFinishLoad"]
+- ["So16UIStateRestoringP", "webViewDidStartLoad"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- ["So21UITableViewControllerC", "String"]
+- !private ["So21UITableViewControllerC", "Twitter"]
+- !private ["So21UITableViewControllerC", "UIApplication"]
+- ["So21UITableViewControllerC", "UIButton"]
+- !private ["So21UITableViewControllerC", "UIStoryboard"]
+- !private ["So21UITableViewControllerC", "UIViewController"]
+- !private ["So21UITableViewControllerC", "URL"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "connectToTwitter"]
+- ["So21UITableViewControllerC", "emailWridr"]
+- ["So21UITableViewControllerC", "followOnFacebook"]
+- ["So21UITableViewControllerC", "followOnInstagram"]
+- ["So21UITableViewControllerC", "followOnTwiiter"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "logoutOfTwitter"]
+- ["So21UITableViewControllerC", "openFacebook"]
+- ["So21UITableViewControllerC", "openFacebook2"]
+- ["So21UITableViewControllerC", "openInstagram"]
+- ["So21UITableViewControllerC", "openInstagram2"]
+- ["So21UITableViewControllerC", "openTwitter"]
+- ["So21UITableViewControllerC", "openTwitter2"]
+- !private ["So21UITableViewControllerC", "performSegue"]
+- !private ["So21UITableViewControllerC", "present"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "showTermsOfService"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", "visitWebsite"]
+- ["So21UITableViewControllerC", "webView"]
+- ["So21UITableViewControllerC", "webViewDidFinishLoad"]
+- ["So21UITableViewControllerC", "webViewDidStartLoad"]
+- !private ["So21UITableViewDataSourceP", "Twitter"]
+- !private ["So21UITableViewDataSourceP", "UIApplication"]
+- !private ["So21UITableViewDataSourceP", "UIStoryboard"]
+- !private ["So21UITableViewDataSourceP", "URL"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "openFacebook"]
+- !private ["So21UITableViewDataSourceP", "openFacebook2"]
+- !private ["So21UITableViewDataSourceP", "openInstagram"]
+- !private ["So21UITableViewDataSourceP", "openInstagram2"]
+- !private ["So21UITableViewDataSourceP", "openTwitter"]
+- !private ["So21UITableViewDataSourceP", "openTwitter2"]
+- !private ["So21UITableViewDataSourceP", "performSegue"]
+- !private ["So21UITableViewDataSourceP", "present"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", "webView"]
+- ["So21UITableViewDataSourceP", "webViewDidFinishLoad"]
+- ["So21UITableViewDataSourceP", "webViewDidStartLoad"]
+- !private ["So19UITableViewDelegateP", "Twitter"]
+- !private ["So19UITableViewDelegateP", "UIApplication"]
+- !private ["So19UITableViewDelegateP", "UIStoryboard"]
+- !private ["So19UITableViewDelegateP", "URL"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "openFacebook"]
+- !private ["So19UITableViewDelegateP", "openFacebook2"]
+- !private ["So19UITableViewDelegateP", "openInstagram"]
+- !private ["So19UITableViewDelegateP", "openInstagram2"]
+- !private ["So19UITableViewDelegateP", "openTwitter"]
+- !private ["So19UITableViewDelegateP", "openTwitter2"]
+- !private ["So19UITableViewDelegateP", "performSegue"]
+- !private ["So19UITableViewDelegateP", "present"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", "webView"]
+- ["So19UITableViewDelegateP", "webViewDidFinishLoad"]
+- ["So19UITableViewDelegateP", "webViewDidStartLoad"]
+- !private ["So18UITraitEnvironmentP", "Twitter"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "openFacebook"]
+- !private ["So18UITraitEnvironmentP", "openFacebook2"]
+- !private ["So18UITraitEnvironmentP", "openInstagram"]
+- !private ["So18UITraitEnvironmentP", "openInstagram2"]
+- !private ["So18UITraitEnvironmentP", "openTwitter"]
+- !private ["So18UITraitEnvironmentP", "openTwitter2"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewDidFinishLoad"]
+- ["So18UITraitEnvironmentP", "webViewDidStartLoad"]
+- !private ["So23UIUserActivityRestoringP", "Twitter"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "open"]
+- !private ["So23UIUserActivityRestoringP", "openFacebook"]
+- !private ["So23UIUserActivityRestoringP", "openFacebook2"]
+- !private ["So23UIUserActivityRestoringP", "openInstagram"]
+- !private ["So23UIUserActivityRestoringP", "openInstagram2"]
+- !private ["So23UIUserActivityRestoringP", "openTwitter"]
+- !private ["So23UIUserActivityRestoringP", "openTwitter2"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "webView"]
+- ["So23UIUserActivityRestoringP", "webViewDidFinishLoad"]
+- ["So23UIUserActivityRestoringP", "webViewDidStartLoad"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "Twitter"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
+- !private ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", "connectToTwitter"]
+- ["So16UIViewControllerC", "emailWridr"]
+- ["So16UIViewControllerC", "followOnFacebook"]
+- ["So16UIViewControllerC", "followOnInstagram"]
+- ["So16UIViewControllerC", "followOnTwiiter"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "logoutOfTwitter"]
+- ["So16UIViewControllerC", "openFacebook"]
+- ["So16UIViewControllerC", "openFacebook2"]
+- ["So16UIViewControllerC", "openInstagram"]
+- ["So16UIViewControllerC", "openInstagram2"]
+- ["So16UIViewControllerC", "openTwitter"]
+- ["So16UIViewControllerC", "openTwitter2"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "showTermsOfService"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "visitWebsite"]
+- ["So16UIViewControllerC", "webView"]
+- ["So16UIViewControllerC", "webViewDidFinishLoad"]
+- ["So16UIViewControllerC", "webViewDidStartLoad"]
+- !private ["So17UIWebViewDelegateP", "Twitter"]
+- !private ["So17UIWebViewDelegateP", "UIApplication"]
+- !private ["So17UIWebViewDelegateP", "UIStoryboard"]
+- !private ["So17UIWebViewDelegateP", "URL"]
+- ["So17UIWebViewDelegateP", ""]
+- !private ["So17UIWebViewDelegateP", "openFacebook"]
+- !private ["So17UIWebViewDelegateP", "openFacebook2"]
+- !private ["So17UIWebViewDelegateP", "openInstagram"]
+- !private ["So17UIWebViewDelegateP", "openInstagram2"]
+- !private ["So17UIWebViewDelegateP", "openTwitter"]
+- !private ["So17UIWebViewDelegateP", "openTwitter2"]
+- !private ["So17UIWebViewDelegateP", "performSegue"]
+- !private ["So17UIWebViewDelegateP", "present"]
+- !private ["So17UIWebViewDelegateP", "print"]
+- ["So17UIWebViewDelegateP", "webView"]
+- ["So17UIWebViewDelegateP", "webViewDidFinishLoad"]
+- ["So17UIWebViewDelegateP", "webViewDidStartLoad"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Twitter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openFacebook"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openFacebook2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openInstagram"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openInstagram2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openTwitter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openTwitter2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidFinishLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidStartLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "5Wridr22SettingsViewControllerC"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "So17UIWebViewDelegateP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TwitterCore.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRSessionStore.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDelegate.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoPlaybackState.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMediaEntitySize.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAuthConfig.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTROAuthSigning.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetTableViewCell.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRSession.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAuthSession.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRGuestSession.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubAdConfiguration.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRLogInButton.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineViewController.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposerViewController.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUser.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposer.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineFilter.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTwitter.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineCursor.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRDefines.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRKit.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetCashtagEntity.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetHashtagEntity.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetUrlEntity.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetUserMentionEntity.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
+- "/Users/matthewserna/Documents/Github/Wridr/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "29cfdd0f6d5bd63629e92a6cf32edd8a"
