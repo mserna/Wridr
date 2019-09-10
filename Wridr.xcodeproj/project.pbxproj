@@ -14,9 +14,7 @@
 		B6B790811FA243A200F71404 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B790801FA243A200F71404 /* TwitterCore.framework */; };
 		B6B790831FA2441900F71404 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B790821FA2441800F71404 /* Fabric.framework */; };
 		B6C354E11E5B70E800306365 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */; };
-		B6C87B021FA02A2900DB71ED /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6C87AFF1FA02A2800DB71ED /* TwitterShareExtensionUIResources.bundle */; };
 		B6C87B031FA02A2900DB71ED /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C87B001FA02A2800DB71ED /* TwitterKit.framework */; };
-		B6C87B041FA02A2900DB71ED /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6C87B011FA02A2800DB71ED /* TwitterKitResources.bundle */; };
 		CE2145631DFD4FA6003B392C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2145621DFD4FA6003B392C /* SettingsViewController.swift */; };
 		CE43097E1E3EC2F20016D2AB /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */; };
 		CE4309801E3EC7160016D2AB /* ShowWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43097F1E3EC7160016D2AB /* ShowWebsite.swift */; };
@@ -50,9 +48,8 @@
 		B6B790801FA243A200F71404 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		B6B790821FA2441800F71404 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		B6C354E01E5B70E800306365 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
-		B6C87AFF1FA02A2800DB71ED /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
 		B6C87B001FA02A2800DB71ED /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
-		B6C87B011FA02A2800DB71ED /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		BBAE4D62232838DF001A3B0E /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
 		CE2145621DFD4FA6003B392C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CE43097D1E3EC2F20016D2AB /* TermsOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
 		CE43097F1E3EC7160016D2AB /* ShowWebsite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowWebsite.swift; sourceTree = "<group>"; };
@@ -110,7 +107,6 @@
 				67B3CD7F3CD24278317914F0 /* Pods-Wridr.debug.xcconfig */,
 				549192F6D9AB46B523AB6452 /* Pods-Wridr.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -165,9 +161,8 @@
 			children = (
 				B6B790821FA2441800F71404 /* Fabric.framework */,
 				B6B790801FA243A200F71404 /* TwitterCore.framework */,
+				BBAE4D62232838DF001A3B0E /* TwitterKitResources.bundle */,
 				B6C87B001FA02A2800DB71ED /* TwitterKit.framework */,
-				B6C87B011FA02A2800DB71ED /* TwitterKitResources.bundle */,
-				B6C87AFF1FA02A2800DB71ED /* TwitterShareExtensionUIResources.bundle */,
 				B6A154361E7CED54001F50F2 /* Crashlytics.framework */,
 				CEAD5AE31DBD20D4002251F8 /* WridrBeta */,
 				CEAD5AE21DBD20D4002251F8 /* Products */,
@@ -284,12 +279,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C87B041FA02A2900DB71ED /* TwitterKitResources.bundle in Resources */,
 				CEAD5AEF1DBD20D5002251F8 /* LaunchScreen.storyboard in Resources */,
 				CEB4C77E1E0CC95100718D87 /* Main-4S.storyboard in Resources */,
 				CEAD5AEC1DBD20D5002251F8 /* Assets.xcassets in Resources */,
 				CEAD5AFD1DBD2330002251F8 /* ViewControllerLyft.xib in Resources */,
-				B6C87B021FA02A2900DB71ED /* TwitterShareExtensionUIResources.bundle in Resources */,
 				CEAD5B011DBD2341002251F8 /* ViewControllerTaxi.xib in Resources */,
 				CEC65C531DE1004F0061D79F /* ViewControllerUber.xib in Resources */,
 			);
@@ -455,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -500,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -516,9 +509,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 78M3CL8X74;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -526,10 +520,12 @@
 				INFOPLIST_FILE = WridrBeta/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.wridr;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wridr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -541,9 +537,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 78M3CL8X74;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -551,10 +548,12 @@
 				INFOPLIST_FILE = WridrBeta/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.wridr;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wridr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -16,13 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     var window: UIWindow?
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        return Twitter.sharedInstance().application(app, open: url, options: options)
+        return TWTRTwitter.sharedInstance().application(app, open: url, options: options)
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         //Using new TwitterKit
-        Twitter.sharedInstance().start(withConsumerKey:"TTAJgZnRxXh4dLG34YgEq7Lfb", consumerSecret:"K3TF5c22DLUecnaoyBr9GkDGUW3PsUHXSAfTbQOJ1w4dFzsTci")
+        TWTRTwitter.sharedInstance().start(withConsumerKey:"TTAJgZnRxXh4dLG34YgEq7Lfb", consumerSecret:"K3TF5c22DLUecnaoyBr9GkDGUW3PsUHXSAfTbQOJ1w4dFzsTci")
             
         //Remove navbar shadow
         UINavigationBar.appearance().shadowImage = UIImage()

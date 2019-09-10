@@ -21,7 +21,7 @@ class SettingsViewController: UITableViewController, UIWebViewDelegate
     @IBAction func connectToTwitter(_ sender: UIButton)
     {
         /*Checks to see if the use is authenticated*/
-        Twitter.sharedInstance().logIn
+        TWTRTwitter.sharedInstance().logIn
         {
             (session, error) in
             if session != nil
@@ -40,7 +40,7 @@ class SettingsViewController: UITableViewController, UIWebViewDelegate
     //MARK: Logout of Twitter
     @IBAction func logoutOfTwitter(_ sender: UIButton)
     {
-        let store = Twitter.sharedInstance().sessionStore
+        let store = TWTRTwitter.sharedInstance().sessionStore
         if let userID = store.session()?.userID {
             store.logOutUserID(userID)
             print("Logged out of Twitter")
