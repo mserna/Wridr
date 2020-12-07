@@ -45,7 +45,7 @@ class SettingsViewController: UITableViewController, UIWebViewDelegate
             store.logOutUserID(userID)
             print("Logged out of Twitter")
         }
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main-4S", bundle:nil)
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         let rootViewController = storyBoard.instantiateViewController(withIdentifier: "IntroductionPage") as UIViewController
         self.present(rootViewController, animated:true, completion:nil)
     }

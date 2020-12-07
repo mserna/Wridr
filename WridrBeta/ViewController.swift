@@ -97,7 +97,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITabBarDelegate, 
         
         self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: (self.view.frame.size.height) - 115)
         
-        scrollView?.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
+        scrollView?.contentInset = UIEdgeInsets(top: 25, left: 0, bottom: 0, right: 0)
         
         //Creates menubar space
         setupMenuBar()

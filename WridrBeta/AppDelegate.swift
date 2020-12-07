@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         //Using new TwitterKit
-        TWTRTwitter.sharedInstance().start(withConsumerKey:"TTAJgZnRxXh4dLG34YgEq7Lfb", consumerSecret:"K3TF5c22DLUecnaoyBr9GkDGUW3PsUHXSAfTbQOJ1w4dFzsTci")
+        TWTRTwitter.sharedInstance().start(withConsumerKey:"RSXtP0eDEDKBkpSfhlKqKWQ0I", consumerSecret:"V9oa7cYQ7lym7mwWxWs5mPK6miys79tCqbY6D2FedSpPdRteBm")
             
         //Remove navbar shadow
         UINavigationBar.appearance().shadowImage = UIImage()

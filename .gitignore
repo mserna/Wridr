@@ -1,3 +1,5 @@
 .DS_Store
 codesigndoc_exports  
 nohup.out
+Pods/*
+./Pods
